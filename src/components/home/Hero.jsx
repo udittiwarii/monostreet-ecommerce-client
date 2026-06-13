@@ -13,8 +13,10 @@ import {
 
 import gsap from "gsap";
 import Button from "../ui/Button";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
 
   const subtitleRef = useRef();
 
@@ -227,6 +229,9 @@ const Hero = () => {
 
           {/* BUTTON */}
           <button ref={buttonRef}
+            onClick={() => {
+              navigate("/collection");
+            }}
             className=" 
           px-6 sm:px-8 py-3 sm:py-4 bg-white text-black flex items-center gap-3 hover:bg-black hover:text-white border border-white transition-all duration-300 text-sm sm:text-base 
            will-change-transform

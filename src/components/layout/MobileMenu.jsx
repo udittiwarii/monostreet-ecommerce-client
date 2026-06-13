@@ -100,7 +100,7 @@ const MobileMenu = ({
           </Link>
 
           <Link
-            to="/collections"
+            to="/collection"
             onClick={onClose}
             className="text-lg"
             style={{ fontFamily: "Satoshi-Medium" }}
