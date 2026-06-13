@@ -19,9 +19,8 @@ import {
 import AddressCard
   from "../../components/profile/AddressCard";
 
-import AddAddressModal
-  from "../../components/profile/AddAddressModal";
-import BackButton from "../../components/ui/Backbutton";
+import AddAddressModal from "../../components/profile/AddAddressModal";
+import BackButton from './../../components/ui/BackButton';
 
 const ProfilePage = () => {
 

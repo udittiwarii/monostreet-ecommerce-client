@@ -4,7 +4,7 @@ import Container from "../../components/ui/Container";
 import EmptyState from "../../components/ui/EmptyState";
 
 import ProductGrid from "../../components/product/ProductGrid";
-import BackButton from "../../components/ui/Backbutton";
+import BackButton from './../../components/ui/BackButton';
 
 const WishlistPage = () => {
 
